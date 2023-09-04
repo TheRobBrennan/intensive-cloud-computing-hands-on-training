@@ -1,0 +1,19 @@
+{
+  "name": "intensive-cloud-computing-hands-on-training",
+  "version": "0.0.0",
+  "description": "Example materials and notes for the Intensive Cloud Computing hands-on training",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRobBrennan/intensive-cloud-computing-hands-on-training.git"
+  },
+  "author": "Rob Brennan <rob@therobbrennan.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheRobBrennan/intensive-cloud-computing-hands-on-training/issues"
+  },
+  "homepage": "https://github.com/TheRobBrennan/intensive-cloud-computing-hands-on-training#readme"
+}
