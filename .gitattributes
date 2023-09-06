@@ -1,6 +1,6 @@
+*.pdf filter=lfs diff=lfs merge=lfs -text
 *.gitignore filter=lfs diff=lfs merge=lfs -text
 *.md filter=lfs diff=lfs merge=lfs -text
-*.pdf filter=lfs diff=lfs merge=lfs -text
 *.tf filter=lfs diff=lfs merge=lfs -text
 /cloud-warmup/live3-docker-cloud/app/Dockerfile filter=lfs diff=lfs merge=lfs -text
 *.py filter=lfs diff=lfs merge=lfs -text
