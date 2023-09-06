@@ -1,3 +1,3 @@
-FROM tiangolo/uwsgi-nginx-flask:python3.6
-RUN pip install redis
-ADD /tcb-vote /app
+version https://git-lfs.github.com/spec/v1
+oid sha256:100f84ed4d1c7ecadadbcbef483c26294f392259a5420fd3dec26d7226ad5446
+size 83

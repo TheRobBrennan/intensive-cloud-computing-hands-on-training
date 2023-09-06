@@ -1,17 +1,3 @@
-from flask import render_template
-from flask import Flask
-
-app = Flask(__name__)
-
-# en = English
-# pt = Portuguese
-
-language = 'en'
-
-@app.route('/')
-@app.route('/<name>')
-def index(name=None):
-    return render_template('index-'+language+'.html', name=name)
-
-if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0')
+version https://git-lfs.github.com/spec/v1
+oid sha256:dca089a9876738cc50edfe6e3d5f76164ba455abe4204b912b6e83be541df51b
+size 325
