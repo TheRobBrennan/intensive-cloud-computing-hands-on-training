@@ -1,3 +1,19 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:325b0f3814c09e47a5bed0a920b89338f15cc0547b5674c216f03271b500f9ad
-size 319
+
+/*
+ * Principal arquivo de configuração do Terraform
+ */
+
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 3.0"
+    }
+  }
+}
+
+# Configura o AWS Provider
+provider "aws" {
+  shared_credentials_file = pathexpand(var.aws_credentials_file_path)
+  region = var.aws_region
+}

@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:39a3affc8701e6a15037eece8f9b64bfe2058c779344a15b162042ff8e403c44
-size 244
+/*
+ * Variaveis Terraform para GCP.
+ */
+
+variable "gcp_project_id" {
+  description = "ID do Projeto GCP."
+  type        = string
+}
+
+variable "gcp_region" {
+  description = "Padrão para região de Ashburn, Virginia"
+  default     = "us-east4"
+}

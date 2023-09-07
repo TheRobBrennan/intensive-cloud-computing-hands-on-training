@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0857c65039f08b046eeadb6d7dae0c956dbedb368e7ac7d335d00fe186c666c0
-size 247
+/*
+ * Terraform variable declarations for GCP.
+ */
+
+variable "gcp_project_id" {
+  description = "GCP Project ID."
+  type        = string
+}
+
+variable "gcp_region" {
+  description = "Default to Ashburn, Virginia region."
+  default     = "us-east4"
+}
