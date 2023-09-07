@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8999e6de0b88373bcd8470ebee9f96c812134ecfc1f62b1c6bd12fa8ff52098a
-size 284
+/*
+ * Variaveis Terraform para AWS.
+ */
+
+variable "aws_credentials_file_path" {
+  description = "Localiza o arquivo de credenciais da AWS."
+  type        = string
+}
+
+variable "aws_region" {
+  description = "Padrão para a região US East (N. Virgínia)."
+  default     = "us-east-1"
+}

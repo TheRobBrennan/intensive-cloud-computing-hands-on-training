@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:35bc4a43f9c413fd4065f8b2e521ec1ac385ca428cc9429fe975500fc9288aab
-size 147
+# Lines to create a AWS S3 bucket
+
+resource "aws_s3_bucket" "b" {
+  bucket = "luxxy-covid-testing-system-pdf-en-xxxx"
+  acl    = "private"
+}
