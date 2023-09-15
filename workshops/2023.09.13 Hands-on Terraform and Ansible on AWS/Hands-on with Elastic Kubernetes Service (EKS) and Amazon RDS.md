@@ -1,6 +1,6 @@
 # Hands-on with Elastic Kubernetes Service (EKS) and Amazon RDS
 
-Shout-out to Camila Ribeiro responding to my email request 🙏🏻
+Shout-out to Camila Ribeiro responding to my email request with notes available at [https://thecloudbootcamp.notion.site/Hands-on-with-Elastic-Kubernetes-Service-EKS-and-Amazon-RDS-86bce749a4504191af64aba8a40537e8](https://thecloudbootcamp.notion.site/Hands-on-with-Elastic-Kubernetes-Service-EKS-and-Amazon-RDS-86bce749a4504191af64aba8a40537e8) 🙏🏻
 
 - Download project files → https://www.dropbox.com/s/qhayvn8sccf1amt/project-files.zip?dl=0
 - Set DB password variable
